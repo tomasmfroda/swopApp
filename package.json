@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "react": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
+    "redux-tools": "^3.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0"
+  }
+}

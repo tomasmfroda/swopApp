@@ -1,0 +1,28 @@
+{
+  "name": "swop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/babel-node -- ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.8",
+    "mongoose-unique-validator": "^2.0.2",
+    "node-fetch": "^2.2.1"
+  }
+}
